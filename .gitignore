@@ -1,0 +1,23 @@
+# Môi trường ảo Python & Cache (Cực kỳ quan trọng, bắt buộc phải chặn)
+.venv/
+venv/
+ENV/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# File nén / Dataset nặng không nên đẩy lên GitHub
+*.zip
+*.tar.gz
+trashnet_waste_classifier_package.zip
+
+# Model nặng / Trọng số AI (nếu file .h5, .pt, .pth lớn hơn 100MB)
+models/*.h5
+models/*.pt
+models/*.pth
+models/*.onnx
+
+# Thông tin bảo mật & Cài đặt cá nhân
+.env
+.vscode/
+.claude/

@@ -1,0 +1,21 @@
+KẾT QUẢ ĐÁNH GIÁ MÔ HÌNH TRÊN TẬP TEST ĐỘC LẬP
+=======================================================
+Test Accuracy          : 0.8421 (84.21%)
+Macro Precision        : 0.8449
+Macro Recall           : 0.8178
+Macro F1-Score         : 0.8270
+Weighted F1-Score      : 0.8418
+
+CHI TIẾT CLASSIFICATION REPORT:
+              precision    recall  f1-score   support
+
+   cardboard     0.9608    0.8167    0.8829        60
+       glass     0.8714    0.8026    0.8356        76
+       metal     0.7500    0.9194    0.8261        62
+       paper     0.8438    0.9101    0.8757        89
+     plastic     0.8310    0.8082    0.8194        73
+       trash     0.8125    0.6500    0.7222        20
+
+    accuracy                         0.8421       380
+   macro avg     0.8449    0.8178    0.8270       380
+weighted avg     0.8484    0.8421    0.8418       380

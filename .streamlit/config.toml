@@ -1,0 +1,41 @@
+[theme]
+base = "light"
+primaryColor = "#10B981"
+backgroundColor = "#F8FAFC"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#0F172A"
+font = "'Plus Jakarta Sans':https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+headingFont = "'Plus Jakarta Sans':https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&display=swap"
+baseFontSize = 16
+baseFontWeight = 400
+headingFontSizes = ["2.25rem", "1.75rem", "1.35rem", "1.1rem", "1rem", "0.875rem"]
+headingFontWeights = [800, 750, 700, 700, 650, 650]
+metricValueFontSize = "2rem"
+metricValueFontWeight = 800
+borderColor = "#E2E8F0"
+dataframeBorderColor = "#E2E8F0"
+dataframeHeaderBackgroundColor = "#ECFDF5"
+dataframeHeaderTextColor = "#064E3B"
+baseRadius = "16px"
+buttonRadius = "12px"
+showWidgetBorder = true
+showSidebarBorder = true
+paddingTop = "1.5rem"
+paddingBottom = "3rem"
+chartCategoricalColors = ["#059669", "#10B981", "#0D9488", "#14B8A6", "#34D399", "#6EE7B7"]
+chartSequentialColors = ["#ECFDF5", "#D1FAE5", "#A7F3D0", "#6EE7B7", "#34D399", "#10B981", "#059669", "#047857", "#065F46", "#064E3B"]
+
+[theme.sidebar]
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#ECFDF5"
+textColor = "#0F172A"
+primaryColor = "#10B981"
+borderColor = "#E2E8F0"
+codeBackgroundColor = "#F8FAFC"
+linkColor = "#047857"
+paddingTop = "1rem"
+paddingBottom = "1.5rem"
+
+[client]
+toolbarMode = "minimal"
+showSidebarNavigation = false
